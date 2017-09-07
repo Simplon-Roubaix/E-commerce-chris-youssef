@@ -13,7 +13,6 @@ $Produits=[
 <?php
 
     foreach ($Produits as $cle => $admin) {
-
       ?>
 
     <div class="col s12 m4">
