@@ -1,6 +1,7 @@
 <?php
 $Produits=[
-      ["titre"=> "Electromenager",  "image"=> "img/image.jpg", "resume"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis nec leo vel malesuada. Quisque sed libero metus. Etiam ultrices."],
+      ["titre"=> "Electromenager",  "image"=> "img/image.jpg", "resume"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis nec leo vel malesuada. Quisque sed libero metus. Etiam ultrices."
+      , "Detail"=> "hzrezhfiu a uoizivjiuezkdkoi jop i"  ],
       ["titre"=> "Hi tech", "image" => "img/image2.jpg", "resume"=>"Proin metus ligula, egestas eu volutpat eget, porta at leo. Donec ut mi at nulla congue interdum. Aliquam rutrum cursus mauris nec sollicitudin."],
       ["titre"=> "Jardinage", "image" => "img/image3.jpg", "resume"=>"Duis malesuada lectus ipsum, vel euismod ligula viverra non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed volutpat,"],
       ["titre"=> "Décoration", "image" => "img/image4.jpg", "resume"=>"Nunc eget venenatis nunc. Nulla vel orci ac mauris condimentum fermentum at sit amet lorem. Suspendisse elementum ultricies dapibus. Morbi pulvinar erat et mattis tincidunt. "],
@@ -24,7 +25,7 @@ $Produits=[
         </div>
         <div class="card-content">
           <h3 class="card-title"><?php echo $admin["titre"] ?></h3>
-          <p><?php echo $admin["resume"] ?></p>
+          <p><?php echo $admin["resume"]?></p>
         </div>
       </div>
     </div>
