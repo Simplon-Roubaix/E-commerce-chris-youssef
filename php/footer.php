@@ -1,5 +1,18 @@
+
+<footer class="container-fluid footer">
+    <div class="container">
+        <div class="footer1">
+            <p id="fin"> © Copyright 2017 Générer mentions légales | Mentions légales | <a href="" id="me-contact"> Me contacter </a></p>
+            <i id="twitter" class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+            <i id="linkedin" class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+            <i id="github" class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+        </div>
+    </div>
+</footer>
+
+
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 
