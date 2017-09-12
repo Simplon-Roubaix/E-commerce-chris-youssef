@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family: 'Pacifico', sans-serif;
+  margin-top: 20px;
+}
+
+ h2{
+   font-family: 'Pacifico', sans-serif;
+   text-align: center;
+   margin-top: 70px;
+ }
+
+#accueil{
+  background-color: black;
+}
+
+.card .card-content{
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+#carte{
+margin-right: 50px;
+}
+
+.nav-title{
+  margin-top: 20px;
+
+}
+
+#fin{
+  text-align: center;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+#me-contact{
+  color:#b2dfdb;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+/*#twitter{
+
+  margin-left: 127px;
+  margin-right: 10px;
+}
+#linkedin{
+
+  margin-right: 10px;
+}
+#github{
+
+}
+*/
+.footer{
+  height: 100px;
+  background-color:#262626;
+  color:white;
+  margin-top: 150px;
+  font-family:'Archivo Narrow' , sans-serif;
+}
+
+.footer1{
+  text-align: center;
+}
+
+nav .nav-title{
+    display: inline-block;
+    font-size: 50px;
+    padding: 28px 0;
+  }
+
+
+
+
+  #menu{
+    position: sticky !important;
+    top:50px;
+    left: 100px;
+  }
+
+.carte2{
+  display: flex;
+  flex-flow: column wrap;
+
+}
