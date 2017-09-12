@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> c9009a6049755f85c179126ecb026db26933b75e
 <footer class="container-fluid footer">
     <div class="container">
         <div class="footer1">
