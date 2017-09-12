@@ -51,7 +51,7 @@ else : ?>
 
       <div class="card-image">
         <img src= "<?php echo $Produits[$categorie]['image'] ?>">
-        <form class="" action="produits.html" method="post">
+        <form class="" action="produits.php" method="post">
           <input type="hidden" name="nom" value="">
           <a class="btn-floating halfway-fab waves-effect waves-light red" ><i class="material-icons">add</i></a>
         </form>
