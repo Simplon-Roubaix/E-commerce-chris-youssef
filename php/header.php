@@ -30,20 +30,21 @@
           </div>
           <div class="nav-content center-align" >
             <h1 class="nav-title">Le Grand Bazar<br>En Ligne</h1>
-            <div class="fixed-action-btn horizontal click-to-toggle" id="menu">
-            <a class="btn-floating btn-large red">
-              <i class="material-icons">menu</i>
-            </a>
-            <ul>
-              <li><a class="btn-floating custom"><i class="material-icons">insert_chart</i></a></li>
-              <li><a class="btn-floating custom darken-1"><i class="material-icons">format_quote</i></a></li>
-              <li><a class="btn-floating custom"><i class="material-icons">publish</i></a></li>
-              <li><a class="btn-floating custom"><i class="material-icons">attach_file</i></a></li>
-            </ul>
+            <div class="fixed-action-btn click-to-toggle">
+              <a class="btn-floating btn-large red">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul>
+                <li>
+                  <form action="index.php"  method="post">
+                    <input type="hidden" name="Admin">
+                    <button class="btn-floating red" type="submit"><i class="material-icons">person</i></button>
+                  </form>
+                </li>
+              </ul>
           </div>
 
           </div>
         </nav>
 
       </header>
-
