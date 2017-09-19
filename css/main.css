@@ -1,7 +1,4 @@
-body{
-  margin: 0;
-  padding: 0;
-}
+
 
 h1{
   font-family: 'Pacifico', sans-serif;
@@ -13,10 +10,6 @@ h1{
    text-align: center;
    margin-top: 70px;
  }
-
-#accueil{
-  background-color: black;
-}
 
 .card .card-content{
   font-family: 'Archivo Narrow', sans-serif;

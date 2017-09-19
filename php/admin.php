@@ -20,7 +20,7 @@
       <header>
         <nav class="nav-extended card-panel #212121 grey darken-4">
           <div class="nav-wrapper">
-            <img src="img/.png" class="brand-logo responsive-img git st" alt="">
+            <img src="../img/logo.png" class="brand-logo responsive-img git st" alt="">
             <ul class="right hide-on-med-and-down">
               <li><a><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
               <li><a><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
@@ -30,6 +30,19 @@
           </div>
           <div class="nav-content center-align" >
             <h1 class="nav-title">Le Grand Bazar<br>En Ligne</h1>
+          </div>
+
+              <div class="nav-wrapper">
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="../index.php">Top produits</a></li>
+                  <li><a href="php/blog/blog.php">Blog</a></li>
+                  <li><a href="#">Lorem ipsum</a></li>
+                  <li><a href="#">Lorem ipsum</a></li>
+                </ul>
+              </div>
+
+        </div>
+
             <div class="fixed-action-btn click-to-toggle">
               <a class="btn-floating btn-large red">
                 <i class="material-icons">menu</i>
@@ -44,10 +57,10 @@
               </ul>
           </div>
 
-          </div>
         </nav>
 
       </header>
+
       <main>
 
         <?php

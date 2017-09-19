@@ -10,7 +10,7 @@ catch(Exception $e)
         die('Erreur : '.$e->getMessage());
 }
 
-$reponse = $bdd->query('SELECT * FROM produits WHERE id=\''.$_POST["detail"].'\'');?>
+$reponse = $bdd->query('SELECT * FROM produits, WHERE id=\''.$_POST["detail"].'\'');?>
 <!-- Affichage de chaque message (toutes les données sont protégées par htmlspecialchars) -->
 
 
@@ -24,7 +24,7 @@ $reponse = $bdd->query('SELECT * FROM produits WHERE id=\''.$_POST["detail"].'\'
       <div class="card">
 
         <div class="card-image">
-          <img src= "">
+          <img src= "<?php echo $fichier['id'] ?>">
         </div>
 
         <div class="card-content ard-panel teal light-blue darken-1">

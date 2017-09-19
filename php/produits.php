@@ -37,7 +37,7 @@ catch(Exception $e)
 }
 
 // Récupération des 10 derniers messages
-$reponse = $bdd->query('SELECT * FROM produits');?>
+$reponse = $bdd->query('SELECT * FROM produits INNER JOIN image ON produits.id = image.id_produit');?>
 <!-- Affichage de chaque message (toutes les données sont protégées par htmlspecialchars) -->
 
 <?php while ($valeur = $reponse->fetch()):?>
@@ -45,7 +45,7 @@ $reponse = $bdd->query('SELECT * FROM produits');?>
   <div class="col s12 m4">
     <div class="card">
       <div class="card-image">
-        <img src= "">
+        <img src= "img/<?php echo $valeur["image"]?>">
         <form action="index.php"  method="post">
           <input type="hidden" name="detail" value="<?php echo $valeur["id"]?>">
           <button class="btn-floating halfway-fab #b2dfdb teal lighten-4" type="submit"><i class="material-icons">add</i></button>

@@ -27,11 +27,7 @@ $donnees = $reponse->fetch();
 ?>
 
 <?php
-if (!isset($password) AND $password != $donnees['password']
-OR !isset($pseudo) AND $pseudo ==  $donnees['pseudo']):?>
-
-<?php elseif ($password == $donnees['password']
-      AND  $pseudo ==  $donnees['pseudo']) :?>
+if ($donnees):?>
       <section class="container row">
       <h2>Administrateur <?php echo $donnees['pseudo']; ?></h2>
       <?php include 'newProduit.php';
@@ -42,8 +38,7 @@ OR !isset($pseudo) AND $pseudo ==  $donnees['pseudo']):?>
 
 <!-- //le pseudo et le password sont incorrects -->
 
-<?php elseif ($password == $donnees['password']
-      AND  $pseudo ==  $donnees['pseudo']) :?>
+<?php else :?>
       <div class="row">
         <div class="col s12 m6">
           <div class="card blue-grey darken-1">
@@ -58,38 +53,6 @@ OR !isset($pseudo) AND $pseudo ==  $donnees['pseudo']):?>
         </div>
       </div>
 
-
-<!-- le pseudo est incorrect -->
-<?php elseif ($pseudo !=  $donnees['pseudo']) :?>
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Accés</span>
-              <p>le pseudo est incorrect</p>
-            </div>
-            <div class="card-action">
-              <a class="waves-effect waves-light btn" type="submit" href="index.php">retour</a>
-            <div>
-          </div>
-        </div>
-      </div>
-
-  <!-- // le mot de passe est incorrect -->
-<?php else:?>
- <div class="row">
-   <div class="col s12 m6">
-     <div class="card blue-grey darken-1">
-       <div class="card-content white-text">
-         <span class="card-title">Accés</span>
-         <p>le mot de passe est incorrect</p>
-       </div>
-       <div class="card-action">
-         <a class="waves-effect waves-light btn" type="submit" href="index.php">retour</a>
-       <div>
-     </div>
-   </div>
- </div>
  <?php endif ?>
 
 <?php

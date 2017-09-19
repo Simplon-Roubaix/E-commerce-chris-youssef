@@ -1,7 +1,6 @@
 <main>
 <?php
 
-
 if (isset($_POST['detail'])) {
   include 'detail.php';
 }
