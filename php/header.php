@@ -36,7 +36,7 @@
               </a>
               <ul>
                 <li>
-                  <form action="index.php"  method="post">
+                  <form action="php/admin.php"  method="post">
                     <input type="hidden" name="Admin">
                     <button class="btn-floating red" type="submit"><i class="material-icons">person</i></button>
                   </form>

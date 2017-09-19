@@ -46,8 +46,8 @@ $reponse = $bdd->query('SELECT * FROM produits');?>
     <div class="card">
       <div class="card-image">
         <img src= "">
-        <form class=""  method="post">
-          <input type="hidden" name="" value="">
+        <form action="index.php"  method="post">
+          <input type="hidden" name="detail" value="<?php echo $valeur["id"]?>">
           <button class="btn-floating halfway-fab #b2dfdb teal lighten-4" type="submit"><i class="material-icons">add</i></button>
         </form>
       </div>

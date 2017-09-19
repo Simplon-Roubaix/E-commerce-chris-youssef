@@ -1,5 +1,12 @@
 <main>
-<?php include 'php/admin.php';
-      include 'php/admin_post.php';
-      include 'php/produits.php';?>
+<?php
+
+
+if (isset($_POST['detail'])) {
+  include 'detail.php';
+}
+else {
+  include 'php/produits.php';
+}
+?>
 </main>
